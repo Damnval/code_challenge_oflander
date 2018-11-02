@@ -1,0 +1,21 @@
+<div class="jumbotron">
+	<div class="row">
+			Developer: Val Vincent S. Montesclaros
+	</div>
+	<div class="row">
+		Purpose: Code Challenge
+	</div>
+	
+</div>
+<div  ng-controller="homeController">
+	<div class="form-group row">
+		<label for="currency" class="col-sm-2 col-form-label text-right">Default Currency: </label>
+		<div class="col-sm-4">
+		  <input type="currency" ng-model="currency.base" class="form-control" id="currency" placeholder="currency" ng-disabled="true">
+		  <small id="emailHelp" class="form-text text-muted">Since this is just a free/trial API, manipulating the data is not possible. e.g. Changing the Default Currency</small>
+		</div>
+		
+	</div>
+	<table id="myTable" class="display" width="100%"></table>
+ 
+</div>
